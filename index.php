@@ -26,6 +26,7 @@ $titre_part1 = "Départements";
 
             <?php include 'components/produits.php'?>
             <!-- lol -->
+             <!-- ajout de commentaires -->
         </main>
     </div>
 </body>
