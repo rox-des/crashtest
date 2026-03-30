@@ -25,6 +25,7 @@ $titre_part1 = "Départements";
             <?php include 'components/header-titre.php'?>
 
             <?php include 'components/produits.php'?>
+            <!-- lol -->
         </main>
     </div>
 </body>
