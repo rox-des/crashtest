@@ -1,0 +1,11 @@
+/*[ STRUCTURE DE L'ENTÊTE ]*/
+/* ------------------------------------------------------------ */
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 64px;
+    border-bottom : 3px solid #eaeaea;
+}
+

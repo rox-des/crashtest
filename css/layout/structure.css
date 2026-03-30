@@ -1,0 +1,24 @@
+/*[ STRUCTURE DE L'INTERFACE ]*/
+/* ------------------------------------------------------------ */
+
+/*[ Structure générale de l'interface ]*/
+body{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+div.interface{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+}

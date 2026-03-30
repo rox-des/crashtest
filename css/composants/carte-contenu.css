@@ -1,0 +1,45 @@
+/*[ STRUCTURE DE LA CARTE DES PRODUITS ]*/
+/* ------------------------------------------------------------ */
+
+.produit__carte{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 32px;
+    flex : 0 1 auto;
+    background-color: #efefef;
+
+    & .produit__img img{
+        width: 280px;
+    }
+
+    & .produit__info{
+        text-align: center;
+        line-height: 1.2;
+
+        & h3{
+            padding: 24px 0 8px; 
+            font-size: 1.3rem;
+            font-weight: 300;
+            color: #838383;
+        }
+
+        & p{
+            margin-bottom: 80px;
+            font-size: 2rem;
+            font-weight: 800;
+            color: #00373f;
+        }
+
+        & a{
+            padding: 16px 32px;
+            background-color: #e1d400;
+            color: #00373f;
+            border-radius: 8px;
+
+            &:hover{
+                background-color: #00373f;
+                color: #fafafa;
+            }
+        }
+    }
+}

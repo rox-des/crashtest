@@ -1,0 +1,32 @@
+/*[ STRUCTURE DE LA NAVIGATION ]*/
+/* ------------------------------------------------------------ */
+
+#nav__principale{
+
+
+    & ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 32px;
+
+        & li a{
+            color: #00373f;
+
+            &:hover{
+                color:#e1d400;
+            }
+        }
+    }
+}
+
+.nav-liquidation a{
+    margin-left: 48px;
+    padding: 16px 32px;
+    background-color: #e1d400;
+    color: #fafafa;
+
+    &:hover{
+        background-color: #00373f;
+    }
+}

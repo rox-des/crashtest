@@ -1,0 +1,20 @@
+/*[ STRUCTURE DE L'AFFICHAGE DES PRODUITS ]*/
+/* ------------------------------------------------------------ */
+
+.produits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 96px;
+
+    & .conteneur__produits{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start; /*space-between*/
+        align-items: start;
+        align-content: start;
+        gap: 16px; /*16*/
+        background-color: #fafafa;
+    }
+}

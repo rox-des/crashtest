@@ -1,0 +1,11 @@
+/*[ STRUCTURE DE L'AFFICHAGE DES PRODUITS - GRID ]*/
+/* ------------------------------------------------------------ */
+
+.produits{
+    & .conteneur__produits__grid{
+        display : grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap : 16px;
+        background-color: #fafafa;
+    }
+}
